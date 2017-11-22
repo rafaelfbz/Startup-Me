@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0 10px; */
+    padding: 0 1.041666%;
+    /* width: 960px; */
+    width: 80%;
+    margin: 0 auto;
+    outline: thin solid yellow;
+    /*
+      margin: 0 0 0 0; declaração resumida 
+      margin: (top/bottom) (right/left)
+      margin: 0 auto 0 auto; 
+    */
+  }
+  
+@media(max-width: 375px){
+  .container {
+    width: 90%;}
+    
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12{
+    width: 100%
+  }
+}
+
+@media(min-width: 376px) and (max-width: 1024px){
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12{
+    width: 50%
+  }
+}
+
+
+@media(min-width: 1300px) {
+
+ .col-1{
+     width: 60px;
+     /* (60 / 960) * 100 = 6.25 */
+     width: 6.25%;
+     outline: thin solid red;
+ }
+
+ .col-2{
+     /* (140 / 960) * 100 = 14.583333 */
+     width: 14.583333%;
+     outline: thin solid blueviolet;
+ }
+
+ .col-3{
+     /* (220 / 960) * 100 = 22.916666 */
+     width: 22.916666%;
+   outline: thin solid blue;
+ }
+
+ .col-4{
+     /* (300 / 960) * 100 = 31.25 */
+     width: 31.25%;
+   outline: thin solid rgb(212, 92, 12);
+ }
+
+ .col-5{
+     /* (380 / 960) * 100 = 39,583333 */
+     width: 39,583333%;
+   outline: thin solid rgb(20, 153, 64);
+ }
+
+ .col-6{
+     /* (460 / 960) * 100 = 47,916666 */
+     width: 47,916666%;
+   outline: thin solid blueviolet;
+ }
+
+ .col-7{
+     /* (540 / 960) * 100 = 56,25 */
+     width: 56,25%;
+   outline: thin solid blueviolet;
+ }
+
+ .col-8{
+     /* (620 / 960) * 100 = 64,583333 */
+     width: 64,583333%;
+   outline: thin solid blueviolet;
+ }
+
+ .col-9{
+     /* (700 / 960) * 100 = 72,916666 */
+     width: 72,916666%;
+   outline: thin solid blueviolet;
+ }
+
+ .col-10{
+     /* (780 / 960) * 100 = 72,916666 */
+     width: 81.25%;
+  outline: thin solid blueviolet;
+ } 
+
+ .col-11{
+     /* (860 / 960) * 100 = 89,583333 */
+     width: 89,583333%;
+   outline: thin solid blueviolet;
+ }
+
+ .col-12{
+     /* (940 / 960) * 100 = 97,916666 */
+     width: 97,916666%;
+   outline: thin solid blueviolet;
+ }
+}
